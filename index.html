@@ -42,21 +42,20 @@
 	    
 	.chat > .button {
 		border-radius: 1em;
-		background-color: #ffffff;
+		background-color: #ff0000;
 		font-size: 30px;
 	}
     </style>
 </head>
 
 <body>
-<section class = 'chat'>
-<div class ='bubble Q' id="question"> ' ' </div>
-<div class ='bubble R' id="response"> ' ' </div>
-<div class ='buttons'> 
-<button class='button' onclick="buttonaction()" >Show Answer</button>
-<button class='button' onclick="load()" >Next Question</button>
-</div>
-</section>
+	<section class = 'chat'>
+		<div class ='bubble Q' id="question"> ' ' </div>
+		<div class ='bubble R' id="response"> ' ' </div>
+		<button class='button' onclick="buttonaction()" >Show Answer</button>
+		<button class='button' onclick="load()" >Next Question</button>
+
+	</section>
 	
 <script>
     let idx = 0;
