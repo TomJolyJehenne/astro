@@ -23,14 +23,14 @@
             {
                 var txt = client.responseText.split("\n");
                 
-                var i = getRandomInt(0, txt.length)
-                window.alert(i);
+                var i = getRandomInt(0, txt.length-1)
                 document.getElementById("question").innerHTML = txt[i];
 
             }
         }
         client.send();
-    }
+        return i
+    }   
 
 </script>
 </body>
