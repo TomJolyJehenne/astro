@@ -23,7 +23,11 @@
             color: #192229;
             background: linear-gradient(135deg, #F4F2F3, #BFC6D0);
         }
-        div.Q p {
+        .bubbles {
+		align-self: flex-start;
+		color: #000000;
+	}
+	.bubbles > .Q p {
             // layout
             position: relative;
             max-width: 30em;
@@ -33,9 +37,9 @@
             padding: 1.125em 1.5em;
             font-size: 1.25em;
             border-radius: 1rem;
-          box-shadow:	0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
+            box-shadow:	0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
         }
-        div.Q p::before {
+        .bubbles > .Q p::before {
             // layout
             content: '';
             position: absolute;
@@ -50,7 +54,7 @@
             border-bottom-color: #ffffff;
             filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
         }
-        div.R p {
+        .bubbles > .R p {
             // layout
             position: relative;
             max-width: 30em;
@@ -60,9 +64,9 @@
             padding: 1.125em 1.5em;
             font-size: 1.25em;
             border-radius: 1rem;
-          box-shadow:	0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
+            box-shadow:	0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
         }
-        div.R p::before {
+        .bubbles > .R p::before {
             // layout
             content: '';
             position: absolute;
@@ -81,12 +85,14 @@
     </style>
 </head>
 <body>
-
+<div class = 'bubbles'>
 <div class ='Q'> <p id="question"> </p> </div>
 <div class ='R'> <p id="response"> </p> </div>
+<div class ='buttons'> 
 <button onclick="buttonaction()" >Show Answer</button>
 <button onclick="load()" >Next Question</button>
-
+</div>
+</div>	
 <script>
     let idx = 0;
     load();
