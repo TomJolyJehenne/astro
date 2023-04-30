@@ -16,13 +16,14 @@
     function readfileautomatically () {
         var client = new XMLHttpRequest();
         client.open('GET', '/https://tomjolyjehenne.github.io/astro/questions.txt');
+        console.log("done1");
         client.onreadystatechange = function()
         {
             if( client.responseText != '' )
             {
                 var txt = client.responseText.split("\n");
                 document.getElementById("line").innerHTML = txt[0];
-                console.log("done");
+                console.log("done2");
             }
         }
         client.send();
