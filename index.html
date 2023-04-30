@@ -15,8 +15,8 @@
             ;
             if(client.readyState == 4)
             {
-
                 var txt = client.responseText.split("");
+                window.alert(txt.length);
                 document.getElementById("line2").innerHTML = txt;
 
             }
