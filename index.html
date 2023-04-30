@@ -6,6 +6,7 @@
 <div id="question"> </div>
 <div id="response"> </div>
 <button onclick="buttonaction()" >Show Answer</button>
+<button onclick="next()" >Next Question</button>
 
 <script>
     let idx = readquestion();
@@ -46,7 +47,7 @@
             if(client.readyState == 4)
             {
                 var txt = client.responseText.split("\n");
-                document.getElementById("responses").innerHTML = txt[idx_q];
+                document.getElementById("response").innerHTML = txt[idx_q];
             }
         }
         client.send();
