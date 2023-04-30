@@ -9,7 +9,8 @@
 <body onload="readfileautomatically();">
 
 <td id="foo"></td>
-
+<td="line3"></td>
+<td="line1"></td>
 
 
 <script>
@@ -22,11 +23,12 @@
             {
                 var txt = client.responseText.split("\n");
                 document.getElementById("line1").innerHTML = txt[0];
-                document.getElementById("line3").innerHTML = txt[1];
+                document.getElementById("line3").innerHTML = txt[1];e"é""
             }
         }
         client.send();
     }
 </script>
 </body>
+    
 </html>
