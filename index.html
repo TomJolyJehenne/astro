@@ -22,6 +22,7 @@
             {
                 var txt = client.responseText.split("\n");
                 document.getElementById("line").innerHTML = txt[0];
+                console.log(txt[0]);
             }
         }
         client.send();
