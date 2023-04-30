@@ -22,8 +22,9 @@
             if(client.readyState == 4)
             {
                 var txt = client.responseText.split("\n");
-                window.alert(txt.length);
+                
                 var i = getRandomInt(0, txt.length)
+                window.alert(i);
                 document.getElementById("question").innerHTML = txt[i];
 
             }
