@@ -13,24 +13,20 @@
 
 
 <script>
-function readTextFile(file)
-{
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", '/astro/questions.txt', false);
-    rawFile.onreadystatechange = function ()
-    {
-        if(rawFile.readyState === 4)
+    function readfileautomatically () {
+        var client = new XMLHttpRequest();
+        client.open('GET', '/astro/questions.txt');
+        client.onreadystatechange = function()
         {
-            if(rawFile.status === 200 || rawFile.status == 0)
+            if( client.responseText != '' )
             {
-                var allText = rawFile.responseText;
-                alert(allText);
+                var txt = client.responseText.split("\n");
+                document.getElementById("line1").innerHTML = txt[0];
+                document.getElementById("line3").innerHTML = txt[1];
             }
         }
+        client.send();
     }
-    rawFile.send(null);
-}
-
 </script>
 </body>
 </html>
