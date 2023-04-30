@@ -6,6 +6,12 @@
 
 
 <script>
+    function getRandomInt(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min) + min); // The maximum is exclusive and the minimum is inclusive
+    }
+    
     function readfileautomatically () {
         var client = new XMLHttpRequest();
         client.open('GET', 'questions.txt',false);
@@ -15,14 +21,16 @@
             ;
             if(client.readyState == 4)
             {
-                var txt = client.responseText.split("");
+                var txt = client.responseText.split("\n");
                 window.alert(txt.length);
-                document.getElementById("question").innerHTML = txt;
+                var i = getRandomInt(0, txt.length)
+                document.getElementById("question").innerHTML = txt[i];
 
             }
         }
         client.send();
     }
+
 </script>
 </body>
     
