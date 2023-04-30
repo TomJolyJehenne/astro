@@ -9,8 +9,8 @@
 <body onload="readfileautomatically();">
 <h1>HELLO</h1>
 <td id="foo"></td>
-<td="line3"> A  </td>
-<td="line1"> B  </td>
+<p="line">test</p>
+
 
 <script>
     function readfileautomatically () {
@@ -21,8 +21,7 @@
             if( client.responseText != '' )
             {
                 var txt = client.responseText.split("\n");
-                document.getElementById("line1").innerHTML = txt[0];
-                document.getElementById("line3").innerHTML = txt[1];
+                document.getElementById("line").innerHTML = txt[0];
             }
         }
         client.send();
