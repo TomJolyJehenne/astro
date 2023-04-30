@@ -1,2 +1,4 @@
-WHAT
-WHO
+What is the age of the sun ?
+What is the age of the universe ?
+How many terrestrial palnets are there in the solar system ?
+How many moon does Mars have ?
