@@ -10,8 +10,8 @@
 <body onload="readfileautomatically();">
 <h1>HELLO2!!!</h1>
 <td id="foo"></td>
-<p id="line"> test</p>
-<p id="line2"> test 2</p>
+<p id="line"> </p>
+<p id="line2"> fin </p>
 
 
 <script>
@@ -23,7 +23,7 @@
             if( client.responseText != '' )
             {
                 var txt = client.responseText.split("\n");
-                document.getElementById("line").innerHTML = "voila";
+                document.getElementById("line").innerHTML = txt[0];
 
             }
         }
