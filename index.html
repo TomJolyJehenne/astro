@@ -1,27 +1,26 @@
+<<html>
 <head>
-<script type="text/javascript">
-    function readfileautomatically();
-</script>
 </head>
-
-<body>
 <body onload="readfileautomatically();">
 
-<td id="foo"></td>
-
-
+<div id="line1"></div>
+<div id="line2"></div>
 
 <script>
-function readfileautomatically () {
-
-var client = new XMLHttpRequest();
-client.open('GET', '/foo.txt');
-client.onreadystatechange = function() {
-alert(client.responseText);
-       }
-client.send();
-
-}
-
+    function readfileautomatically () {
+        var client = new XMLHttpRequest();
+        client.open('GET', '/foo.txt');
+        client.onreadystatechange = function()
+        {
+            if( client.responseText != '' )
+            {
+                var txt = client.responseText.split("\n");
+                document.getElementById("line1").innerHTML = txt[0];
+                document.getElementById("line2").innerHTML = txt[1];
+            }
+        }
+        client.send();
+    }
 </script>
 </body>
+</html>
