@@ -9,12 +9,13 @@
 <button onclick="load()" >Next Question</button>
 
 <script>
+    let idx = 0;
     load();
     function load () {
         window.alert("load");
         document.getElementById("question").innerHTML = '';
         document.getElementById("response").innerHTML = '';
-        var idx = readquestion();
+        idx = readquestion();
     }
     
     function getRandomInt(min, max) {
