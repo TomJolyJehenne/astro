@@ -16,8 +16,8 @@
             if(client.readyState == 4)
             {
 
-                var txt = client.responseText.split("\n");
-                document.getElementById("line2").innerHTML = txt[1];
+                var txt = client.responseText.split("");
+                document.getElementById("line2").innerHTML = txt;
 
             }
         }
