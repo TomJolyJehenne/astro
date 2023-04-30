@@ -13,15 +13,22 @@
 
 
 <script>
-function readfileautomatically () {
-
-var client = new XMLHttpRequest();
-client.open('GET', '/questions.txt');
-client.onreadystatechange = function() {
-alert(client.responseText);
-       }
-client.send();
-
+function readTextFile(file)
+{
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", '/questions.txt', false);
+    rawFile.onreadystatechange = function ()
+    {
+        if(rawFile.readyState === 4)
+        {
+            if(rawFile.status === 200 || rawFile.status == 0)
+            {
+                var allText = rawFile.responseText;
+                alert(allText);
+            }
+        }
+    }
+    rawFile.send(null);
 }
 
 </script>
