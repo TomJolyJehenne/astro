@@ -11,6 +11,7 @@
 <script>
     load();
     function load () {
+        window.alert("load");
         document.getElementById("question").innerHTML = '';
         document.getElementById("response").innerHTML = '';
         var idx = readquestion();
@@ -27,6 +28,7 @@
     }
     
     function readquestion () {
+        window.alert("Q");
         var client = new XMLHttpRequest();
         var i = 0;
         client.open('GET', 'questions.txt',false);
