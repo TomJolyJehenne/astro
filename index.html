@@ -21,62 +21,19 @@
 		align-self: flex-start;
 		color: #000000;
 		max-width: 400px;
+		display: flex;
+		flex-flow: column wrap;
+		border-radius: 1em;
+		padding: 0.25em 0.75em;
+		margin: 0.0625em;
+
 	}
-	.bubbles > .Q p {
-            // layout
-            position: relative;
-            max-width: 30em;
-
-            // looks
-            background-color: #ffffff;
-            padding: 1.125em 1.5em;
-            font-size: 1.25em;
-            border-radius: 1rem;
-            box-shadow:	0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
-        }
-        .bubbles > .Q p::before {
-            // layout
-            content: '';
-            position: absolute;
-            width: 0;
-            height: 0;
-            bottom: 100%;
-            left: 1.5em; // offset should move with padding of parent
-            border: .75rem solid transparent;
-            border-top: none;
-
-            // looks
-            border-bottom-color: #ffffff;
-            filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
-        }
-        .bubbles > .R p {
-            // layout
-            position: relative;
-            max-width: 30em;
-
-            // looks
-            background-color: #ccccff;
-            padding: 1.125em 1.5em;
-            font-size: 1.25em;
-            border-radius: 1rem;
-            box-shadow:	0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
-        }
-        .bubbles > .R p::before {
-            // layout
-            content: '';
-            position: absolute;
-            width: 0;
-            height: 0;
-            bottom: 100%;
-            left: 1.5em; // offset should move with padding of parent
-            border: .75rem solid transparent;
-            border-top: none;
-
-            // looks
-            border-bottom-color: #ccccff;
-            filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, .1));
-        }            
-
+	.bubbles > .Q {
+		{ border-top-left-radius: 0.1em; }
+	}
+	.bubbles > .R {
+		{ border-bottom-right-radius: 0.1em; }
+	}
     </style>
 </head>
 <body>
