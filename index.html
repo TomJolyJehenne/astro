@@ -6,10 +6,15 @@
 <div id="question"> </div>
 <div id="response"> </div>
 <button onclick="buttonaction()" >Show Answer</button>
-<button onclick="next()" >Next Question</button>
+<button onclick="load()" >Next Question</button>
 
 <script>
-    let idx = readquestion();
+    load();
+    function load () {
+        document.getElementById("question").innerHTML = '';
+        document.getElementById("response").innerHTML = '';
+        var idx = readquestion();
+    }
     
     function getRandomInt(min, max) {
         min = Math.ceil(min);
@@ -38,7 +43,6 @@
         return i;
     }   
     function readresponse (idx_q) {
-        window.alert("response !");
         var client = new XMLHttpRequest();
         var i = 0;
         client.open('GET', 'responses.txt',false);
