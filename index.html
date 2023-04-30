@@ -1,7 +1,6 @@
 <<html>
 <head>
 <script type="text/javascript">
-    console.log("done0");
     function readfileautomatically();
     
 </script>
@@ -11,21 +10,20 @@
 <body onload="readfileautomatically();">
 <h1>HELLO2!!!</h1>
 <td id="foo"></td>
-<p id="line">test</p>
+<p id="line"> test</p>
 
 
 <script>
     function readfileautomatically () {
         var client = new XMLHttpRequest();
         client.open('GET', '/https://tomjolyjehenne.github.io/astro/questions.txt');
-        console.log("done1");
         client.onreadystatechange = function()
         {
             if( client.responseText != '' )
             {
                 var txt = client.responseText.split("\n");
-                document.getElementById("line").innerHTML = txt[0];
-                console.log("done2");
+                document.getElementById("line").innerHTML = "voila";
+
             }
         }
         client.send();
