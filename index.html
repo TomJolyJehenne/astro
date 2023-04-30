@@ -15,10 +15,10 @@
             ;
             if(client.readyState == 4)
             {
-                window.alert(client.status)
+
                 var txt = client.responseText.split("\n");
-                document.getElementById("line2").innerHTML = txt[0];
-                window.alert(xhr.readyState);
+                document.getElementById("line2").innerHTML = txt[1];
+
             }
         }
         client.send();
