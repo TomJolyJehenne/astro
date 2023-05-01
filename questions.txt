@@ -1,4 +1,89 @@
 What is the age of the sun ?
 What is the age of the universe ?
-How many terrestrial palnets are there in the solar system ?
+How many terrestrial planets are there in the solar system ?
 How many moon does Mars have ?
+What is the biggest moon in the solar system ?
+What is the only moon with an atmosphere in the solar system ?
+Which planet has its spinning axis flip, such as the planet "roll" ? 
+Which planet was discovered with mathematical predictions ?
+What is the name of the outer asteroid belt beyond Neptune ?
+What is the biggest object in the main asteroid belt between Mars and Jupiter ?
+What is the biggest object in the Kuiper belt beyond Neptune ?
+Which planets have rings in the solar system ?
+What is the name of the four main moons of Jupiter ? 
+What is the name of the dust and small object shell all around the solar system ?
+What is the closest comparable galaxy from the Milky way ? 
+What are the most famous dwarf galaxies around the Milky Way ?
+What is the closest star from the solar system ?
+What is a "white dwarf" ?
+What is a "neutron star" ?
+How black holes are created ?
+What is the initial composition of the universe (elements) ?
+Where does all the water on earth come from ?
+How many star are in the Milky Way ?
+How many galaxies are in the universe ?
+How many planets are the the universe ?
+What it the temperature of the surface of the Sun
+Which category of star has the shortest life ?
+Which category of star has the longest life ?
+How long the sun still has to live ?
+What are nebulae ?
+What are globular clusters ?
+What are open clusters ?
+Is the light coming from galaxies going away from us red-shifted or blue-shifted ?
+What is the name of the physical law that describes the expension of the Universe ?
+What are the two main categories of telescopes ?
+How long does the light take to travel between the sun and the earth ?
+How long does the light take to travel between the moon and the earth ?
+How many exoplanets have been detected so far ? 
+What was the first satellite in orbit ?
+Who was the first human in space ?
+When did the first human walk on the moon ?
+What is the highest mountain in the solar system ?
+What is the most volcanic place in the solar system ?
+What is the "red spot" on Jupiter ?
+What is the observation spectrum (range) of the James Webb Telescope ?
+How many space shuttles were part of the US program ?
+What was the iconic rocket of the Apollo program ?
+What was the international space station before the ISS
+What is the dark matter ?
+What are gravitational waves ?
+What is a comet ?
+What is a solar eclipse ?
+What is a lunar eclipse ?
+What is the name of the supermassive black hole in the center of the Milky Way ?
+How many ojects are in the Messier catalog ?
+what does NGC mean ? 
+What is the most distant probe ever launched ?
+What is the biggest moon of Neptune ?
+How thick are Saturn's rings ?
+What was the name of the iconic probe which orbited around Saturn ?
+What are the names of the two US rover still exploring Mars ?
+How long did it took to travel to the moon during the Apollo program ?
+How can we know the temperature of  star ?
+Are blue stars hotter or colder than the Sun ?
+Does an emission nebula emit over a continuous range of wavelength or at certain wavelengths only ?
+Does a reflection nebula emit over a continuous range of wavelength or at certain wavelengths only ?
+How is the spectrum of absorption (dark) nebula ?
+What is the main problem of telescopes on earth ?
+What is the diameter of the milky way ?
+Is the expansion of the universe going faster, slower or going still ?
+What is the method used to accelerate probes going away ?
+How are exoplanets generally detected ?
+What's the pressure on Venus Surface ?
+How many moons does Jupiter have in total ?
+What is the resource available in craters on the south pole of the Moon ?
+With does the Moon always shows the same side ?
+Is a star with a negative magnitude very bright or not ?
+What is the result of the collision of two spiral galaxies ?
+What is the liquid cycle on Titan made of ?
+What reach the surface after a 15 feet asteroid enters the atmosphere ?
+How many times the earth would fit inside Jupiter ?
+How many times the earth would fit inside the sun ?
+What is the name of the plan containing all the planets' orbits ?
+What are the objects responsible of the tides amplitude on Earth ?
+Why scientists want to explore Europa or Enceladus ?
+Name the five brightest stars
+Where were created all the atoms of elements heavier than iron ?
+What can we observe in the spectrum of X-Rays ?
+What is the purpose of observing the sky in the InfraRed ?
