@@ -19,7 +19,7 @@ It's the hot remaining inner core of a medium-size star after the red giant blow
 It's an extremely dense object that can result of the supernova for heavy stars
 They are resulting from the biggest supernovae
 Hydrogen (75%) and Helium (25%)
-It comes from billions of comets who impacted the Earth so far
+It comes from billions of comets who have impacted the Earth so far
 Around 300 billion !
 Around 200 billion !
 Probably around a million of billion of billion !! (10^24)
@@ -27,7 +27,7 @@ Around 6000 °C
 The massive stars (blue and red supergiants)
 The small cold stars (red dwarfs)
 Around 5 billion years, but it will swallow the Earth before.
-They are cloud of gas where sometimes the gas gather to create new stars
+They are cloud of gas where sometimes the gas agglomerates to create new stars
 They are tiny galaxies of a few millions stars, orbiting around the milky way.
 They are clusters of a few thousands stars inside bigger galaxies.
 it is red-shifted 
@@ -53,14 +53,14 @@ It's when the Moon comes in between the Earth and the Sun
 It's when the Earth comes in between the Moon and the Sun
 Sagittarius A*
 110 objects
-New General Catalog
+New General Catalog (almost 8000 objects !)
 Voyager 1
 Triton
 Only 300 feet thick !
 Cassini (+ Huygens for Titan)
 Curiosity and Perseverance 
 3 days (one way)
-We measure the wavelength with at the emission intensity pic
+We measure the wavelength at the emission intensity pic
 Hotter. Red stars are colder.
 Certain wavelength only. It depends on the atoms, inside the hot gas.
 Over a continuous spectrum because the reflect the large spectrum of stars.
@@ -85,5 +85,5 @@ Mainly the Moon, but also the Sun
 Those moons are suspected to have a underground ocean, with plums, interesting for life 
 Sirius, Canopus, Alpha Centauri, Arcturus, Vega … (and sometimes Ginny when she is not spicy ;) )
 They can only be created during supernovae
-Only the accretion disk around supermassive black holes or quasar
+Only the accretion disk around supermassive black holes or quasars
 It lets the telescope see through dust clouds
